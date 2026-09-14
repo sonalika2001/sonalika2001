@@ -22,7 +22,8 @@ Generalist Software Engineer — 3 years at Microsoft shipping AI-powered develo
 
 - **AI-powered tooling** — built and shipped the backend for an LLM-driven Playwright test-failure root-cause engine (Python, Azure Functions), grounded in commit-diff context rather than free-hallucinating, surfacing ~15% of previously-bypassed failures.
 - **Cloud & infra** — designed a secure multi-tenant Azure deployment with managed-identity auth, automated infrastructure with Bicep, built observability dashboards, and carry on-call (including a sub-2-hour live-site incident turnaround). Earlier, automated log retrieval across Kubernetes federations in Python/C++ for a 5G cloud team.
-- **Frontend & product** — shipped the Async Clipboard API for paste operations to 100% production across both Word Web and OneNote Web, fixed multiple accessibility issues in OneNote Web (screen-reader announcements, voice-access support), cut OneNote Web load time by 500ms+, and built the telemetry dashboards that raised instrumentation reliability from 60% to 70%.
+- **Frontend & product** — shipped the Async Clipboard API for paste operations to 100% production across both Word Web and OneNote Web, fixed multiple accessibility issues in OneNote Web (screen-reader announcements, voice-access support), led performance work on OneNote Web's app home page that cut load time (p90) from 44s to 4.5s, and built the telemetry dashboards that raised instrumentation reliability from 60% to 70%.
+- **Technical leadership** — mentored an intern over a 2-month rotation on OneNote Web performance work, driving a 74% improvement in a key startup-performance metric.
 - **Web3 / onchain** — full-stack EVM apps in Solidity, Foundry, wagmi, and viem (see WalletYeet below).
 - **Mobile** — Flutter/Dart apps, from a Teams-like Agile collaboration tool to a university fest's Android app.
 
