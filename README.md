@@ -60,10 +60,6 @@ When I'm not shipping code, I'm probably dancing, crocheting my next project, se
   <img src="https://streak-stats.demolab.com/?user=sonalika2001&theme=tokyonight&hide_border=true" alt="GitHub streak stats" />
 </p>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=sonalika2001&theme=tokyonight&no-frame=true&row=1&margin-w=15" alt="GitHub trophies" />
-</p>
-
 ## Open source & recognition
 
 - Contributed a Dockerized microG build workflow to DivestOS, an open-source Android build system.
