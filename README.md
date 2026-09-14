@@ -47,6 +47,8 @@ Generalist Software Engineer — 3 years at Microsoft shipping AI-powered develo
 
 Dancer, musician, and perpetual crochet-work-in-progress. Mystery/thriller show binger. Coffee ☕ and tea 🍵 — I refuse to pick a side. Vocal about women in STEM, and I write about tech (and everything else) on [X](https://x.com/CryptoChaos72).
 
+Privacy-obsessed: I daily-drive [GrapheneOS](https://grapheneos.org/) (a hardened, de-Googled Android ROM) and default to Signal or Telegram for DMs. Big believer in open source beyond the day job too — I self-host [Nous Research's Hermes](https://hermes-agent.nousresearch.com/) on a home server alongside DeepSeek models, and would love to self-host something frontier-scale next, just need the GPU budget (open to offers 👀).
+
 ## Open source & recognition
 
 - Contributed a Dockerized microG build workflow to DivestOS, an open-source Android build system.
