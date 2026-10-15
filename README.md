@@ -29,9 +29,9 @@ Privacy-obsessed: I daily-drive [GrapheneOS](https://grapheneos.org/) (a hardene
 | Domain | Highlights |
 |---|---|
 | 🚀 Developer productivity & DX | • Built an LLM-grounded Playwright root-cause-analysis engine, surfacing ~15% of previously bypassed test failures<br>• Interviewed 60+ engineers and grew adoption of a Codespaces onboarding flow from 61% to 81% (satisfaction 42%→63%)<br>• Grew a dev-tooling rollout from 25 to 56 users per pipeline through cross-geo evangelism (Redmond, Serbia, Ireland) |
-| 🤖 AI-powered tooling | The RCA engine above, plus [`Prompt-Armor`](https://github.com/sonalika2001/Prompt-Armor) *(in progress)*: a red-team evaluation harness that attacks tool-using, RAG-backed agents with prompt-injection attacks, scores resistance across models, and ships an MCP server for on-demand red-teaming |
+| 🤖 AI-powered tooling | • Currently building the Rust/TypeScript integration between Autopilot (previously Microsoft Scout), Microsoft's first-party agentic AI system, and Copilot Notebooks, enabling AI-generated Office artifacts from within a notebook experience<br>• Built the RCA engine above<br>• Building [`Prompt-Armor`](https://github.com/sonalika2001/Prompt-Armor) *(in progress)*, a red-team evaluation harness for tool-using, RAG-backed agents |
 | 🎨 Frontend & product | • Shipped the Async Clipboard API to 100% of production across Word Web and OneNote Web<br>• Paste-functionality improvements<br>• 4 accessibility fixes (screen readers, voice access, text truncation) plus a cross-browser image-copy fix<br>• Currently leading a UX revamp for onenote.cloud.microsoft<br>• Shipped experience improvements for Microsoft 365 Copilot Chat |
-| ⚡ Performance & reliability | • Cut onenote.cloud.microsoft's p90 load time from 44s to 4.5s (~90% reduction)<br>• Separately, 500ms+ load-time gains and boot-path optimizations for OneNote Web, backed by dashboards that raised instrumentation reliability from ~60% to ~70% |
+| ⚡ Performance & reliability | • Cut Copilot Notebooks' p90 boot time from 40s to 4s (90% reduction) by deferring and parallelizing initialization and removing stale boot-path dependencies<br>• Raised performance-instrumentation reliability from ~60% to ~70% and built dashboards that turn production telemetry into an engineering backlog |
 | 🌙 On-call & production ownership | On-call rotations for both Word Web and OneNote Web, including deployment ownership; turned around a live-site SSR crash in under 2 hours, backed with new unit-test coverage |
 | ☁️ Cloud & infra | Secure multi-tenant Azure deployments, Bicep automation, managed-identity setup, automated health checks |
 | 🧑‍🏫 Technical leadership | Mentored an intern to a 74% improvement in a key OneNote Online performance metric |
@@ -54,6 +54,7 @@ Privacy-obsessed: I daily-drive [GrapheneOS](https://grapheneos.org/) (a hardene
 ## Open source & recognition
 
 - Contributed a Dockerized microG build workflow to [DivestOS](https://github.com/sonalika2001/docker-lineage-cicd), an open-source Android build system.
+- Received the OneNote Impact Award (FY 2025–26) for reducing Copilot Notebooks' p90 boot time from 40s to 4s.
 - Won "The Mighty Thor Hammer" (Best Engineering Tool / Process Improvement) at Microsoft's 2025 Global Hackathon.
 - Awarded the Generation Google Scholarship 2021 (APAC), selected from 5,000+ applicants.
 
